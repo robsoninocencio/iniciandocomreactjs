@@ -1,3 +1,21 @@
+# Criando o projeto
+```
+npx create-react-app iniciandocomreactjs
+cd iniciandocomreactjs
+npm start
+```
+# Criando o repositorio
+Acesse sua conta ou crie uma no github.com, crie um repositório.
+Agora com o repositório criado na sua máquina atualize seu projeto no repositório:
+```
+git init
+git add .
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/robsoninocencio/iniciandocomreactjs.git
+git push -u origin master
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
