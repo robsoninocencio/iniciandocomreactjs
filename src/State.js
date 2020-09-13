@@ -11,6 +11,26 @@ export default class State extends Component {
     console.log(this.state)
   }
 
+  componentDidMount() {
+
+  }
+
+  componentWillUnmount() {
+
+  }
+
+  // componentDidUpdate(){
+  // }
+
+  // componentWillMount() {
+  // }
+
+  // componentWillReceiveProps(){
+  // }
+
+  // componentDidCatch(){
+  // }
+
   render() {
       const {name, age} = this.state;
     return (
