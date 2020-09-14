@@ -13,14 +13,11 @@ export default class Clock2 extends Component {
                                        hour12: true,
                                      })
     }
-
-    console.log(this.state)
+    
   }
 
   componentDidMount() {
-
     this.timer = setInterval(() => this.updateClock(), 1000);
-
   }
 
   componentWillUnmount() {
@@ -28,7 +25,6 @@ export default class Clock2 extends Component {
   }
 
   updateClock() {
-
     this.setState({
           time: new Date()
           .toLocaleString( "en-US", 
@@ -39,7 +35,6 @@ export default class Clock2 extends Component {
                              hour12: true,
                            })
     })
-
   }
 
   render() {
@@ -47,6 +42,7 @@ export default class Clock2 extends Component {
     return(
       <div>
         <h1>{time}</h1>
+        {/* {console.log(this.state)} */}
       </div>
     )
 
